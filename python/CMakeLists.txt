@@ -14,7 +14,7 @@ include(pybind11Tools)
 pybind11_add_module(g2o g2o.cpp)
 target_link_libraries(g2o PRIVATE 
     core
-    solver_cholmod
+    # solver_cholmod
     solver_csparse
     solver_eigen
     solver_dense

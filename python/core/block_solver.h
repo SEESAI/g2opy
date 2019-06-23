@@ -14,7 +14,7 @@
 #include <g2o/solvers/pcg/linear_solver_pcg.h>
 
 
-#define _CHOLMOD_FOUND 1
+// #define _CHOLMOD_FOUND 1
 #define _CSPARSE_FOUND 1
 #define _EIGEN_FOUND 1
 
